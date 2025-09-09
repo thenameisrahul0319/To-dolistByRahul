@@ -425,3 +425,26 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #5a67d8;
 }
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer p {
+    margin: 5px 0;
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+.footer p:first-child {
+    font-weight: 600;
+    color: #4c51bf;
+}
